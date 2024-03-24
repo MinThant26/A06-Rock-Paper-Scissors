@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    place-items: center;
+    background-color: cadetblue;
+}
+.container{
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+.container .choice{
+    display: flex;
+    gap: 20px;
+}
+.choice button{
+    padding: 10px;
+    font-size: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.container .display{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.project-info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
